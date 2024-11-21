@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.perifericos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens ocupem várias linhas */
+}
+
+.caixa-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Espaçamento entre periféricos e caixas */
+}
+
+.caixa {
+    width: 150px; /* Tamanho do box */
+    height: 150px; /* Tamanho do box */
+    border: 2px dashed #ccc;
+    margin: 10px auto;
+}
+
+.perifericos img {
+    width: 150px; /* Tamanho fixo das imagens igual ao box */
+    height: 150px; /* Tamanho fixo das imagens igual ao box */
+    margin: 5px; /* Espaçamento entre as imagens */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.perifericos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens ocupem várias linhas */
+}
+
+.caixa-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Espaçamento entre periféricos e caixas */
+}
+
+.caixa {
+    width: 150px; /* Tamanho do box */
+    height: 150px; /* Tamanho do box */
+    border: 2px dashed #ccc;
+}
+
+.perifericos img {
+    width: 150px; /* Tamanho fixo das imagens igual ao box */
+    height: 150px; /* Tamanho fixo das imagens igual ao box */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex; /* Usar flexbox para layout */
+}
+
+.menu {
+    width: 200px; /* Largura do menu */
+    background-color: #f8f8f8; /* Cor de fundo do menu */
+    border-right: 2px solid #ccc; /* Borda direita */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Sombra para efeito de relevo */
+}
+
+.menu h2 {
+    margin-top: 0;
+}
+
+.menu nav {
+    display: flex;
+    flex-direction: column; /* Colocar os itens do menu em coluna */
+}
+
+.menu a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #333; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno dos links */
+    margin-bottom: 10px; /* Espaçamento entre os links */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+}
+
+.menu a:hover {
+    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Aumenta ligeiramente ao passar o mouse */
+}
+
+.content {
+    flex-grow: 1; /* Permite que o conteúdo ocupe o restante do espaço */
+    padding: 20px; /* Espaçamento interno do conteúdo */
+}
+
+.table {
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex; /* Usar flexbox para layout */
+}
+
+.menu {
+    width: 200px; /* Largura do menu */
+    background-color: #f8f8f8; /* Cor de fundo do menu */
+    border-right: 2px solid #ccc; /* Borda direita */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Sombra para efeito de relevo */
+}
+
+.menu h2 {
+    margin-top: 0;
+}
+
+.menu nav {
+    display: flex;
+    flex-direction: column; /* Colocar os itens do menu em coluna */
+}
+
+.menu a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #333; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno dos links */
+    margin-bottom: 10px; /* Espaçamento entre os links */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+}
+
+.menu a:hover {
+    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Aumenta ligeiramente ao passar o mouse */
+}
+
+.content {
+    flex-grow: 1; /* Permite que o conteúdo ocupe o restante do espaço */
+}
+
+/* Estilo para destacar a pontuação */
+.pontuacao {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007BFF; /* Cor azul para destacar */
+}
+
+/* Estilo das imagens com animação de zoom ao passar o mouse */
+.perifericos img {
+    width: 150px; /* Tamanho fixo das imagens igual ao box */
+    height: 150px; /* Tamanho fixo das imagens igual ao box */
+    transition: transform 0.3s ease; /* Transição suave para transformação */
+}
+
+.perifericos img:hover {
+    transform: scale(1.1); /* Aumenta ligeiramente ao passar o mouse */
+}
+
+/* Estilos adicionais para espaçamento */
+.espaco {
+    margin-bottom: 20px; /* Espaçamento entre os elementos */
+}

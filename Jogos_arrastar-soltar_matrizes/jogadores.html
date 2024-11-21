@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Jogadores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu">
+        <h2>Menu</h2>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="config.html">Configurações de Estilo</a>
+            <a href="crm.html">Gerenciador de Imagens</a>
+            <a href="jogadores.html">Gerenciador de Jogadores</a>
+            <a href="javascript:history.back()">Retornar</a> <!-- Opção para voltar -->
+        </nav>
+    </div>
+
+    <div class="content">
+        <h1>Gerenciador de Jogadores</h1>
+
+        <form id="formulario">
+            <label for="nome">Nome do Jogador:</label>
+            <input type="text" id="nome" required>
+
+            <button type="submit">Cadastrar Jogador</button>
+        </form>
+
+        <div id="mensagem"></div>
+
+        <h2>Jogadores Cadastrados</h2>
+        <table id="tabela-jogadores">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="jogadores.js"></script>
+</body>
+</html>

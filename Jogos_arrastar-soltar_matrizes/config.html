@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações de Estilo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos adicionais para espaçamento */
+        .form-group {
+            margin-bottom: 15px; /* Espaçamento entre os campos do formulário */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <h2>Menu</h2>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="config.html">Configurações de Estilo</a>
+            <a href="crm.html">Gerenciador de Imagens</a>
+            <a href="jogadores.html">Gerenciador de Jogadores</a>
+            <a href="javascript:history.back()">Retornar</a> <!-- Opção para voltar -->
+        </nav>
+    </div>
+
+    <div class="content">
+        <h1>Configurações de Estilo</h1>
+
+        <!-- Formulário para Configuração -->
+        <form id="configForm">
+            <div class="form-group">
+                <label for="bgColor">Cor de Fundo:</label>
+                <input type="color" id="bgColor" value="#ffffff">
+            </div>
+
+            <div class="form-group">
+                <label for="textColor">Cor do Texto:</label>
+                <input type="color" id="textColor" value="#000000">
+            </div>
+
+            <!-- Removido o campo para cor dos boxes -->
+            
+            <button type="submit">Aplicar Configurações</button>
+        </form>
+
+        <!-- Script para Configuração -->
+        <script src="config.js"></script>
+
+    </div>
+
+</body>
+</html>

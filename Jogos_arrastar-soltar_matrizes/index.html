@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Arrastar e Soltar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu">
+        <h2>Menu</h2>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="config.html">Configurações de Estilo</a>
+            <a href="crm.html">Gerenciador de Imagens</a>
+            <a href="jogadores.html">Gerenciador de Jogadores</a>
+            <a href="historico.html">Histórico de Resultados</a> <!-- Link para histórico -->
+        </nav>
+    </div>
+
+    <div class="content">
+        <h1 class="espaco">Jogo de Arrastar e Soltar</h1>
+
+        <!-- Exibição do jogador atual -->
+        <div id="jogadorAtual" class="espaco">Jogando: Jefferson Carlos</div>
+
+        <!-- Temporizador -->
+        <div id="temporizador" class="espaco">Tempo: 0s</div>
+
+        <!-- Pontuação -->
+        <div id="pontuacao" class="pontuacao espaco">Pontuação: 0</div> 
+
+        <!-- Container do jogo -->
+        <div class="container">
+            <div class="perifericos" id="perifericos"></div> <!-- Carregamento dinâmico -->
+            
+            <!-- Caixas para Hardware e Software -->
+            <div class="caixa-container">
+                <h2>Hardware</h2>
+                <div class="caixa" data-resposta-type="hardware"></div>
+
+                <h2>Software</h2>
+                <div class="caixa" data-resposta-type="software"></div>
+            </div>
+        </div>
+
+        <!-- Botão para finalizar o jogo -->
+        <button id="finalizarJogo">Finalizar Jogo</button>
+
+        <!-- Mensagem final -->
+        <div id="mensagemFinal"></div>
+
+        <!-- Scripts -->
+        <script src="script.js"></script>
+
+    </div>
+
+</body>
+</html>

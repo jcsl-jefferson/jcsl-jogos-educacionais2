@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Imagens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu">
+        <h2>Menu</h2>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="config.html">Configurações de Estilo</a>
+            <a href="crm.html">Gerenciador de Imagens</a>
+            <a href="jogadores.html">Gerenciador de Jogadores</a>
+            <a href="javascript:history.back()">Retornar</a> <!-- Opção para voltar -->
+        </nav>
+    </div>
+
+    <div class="content">
+        <h1>Gerenciador de Imagens</h1>
+
+        <form id="formulario">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" required>
+
+            <label for="imagem">Imagem:</label>
+            <input type="file" id="imagem" accept="image/*" required> <!-- Aceita qualquer tipo de imagem -->
+
+            <label for="resposta">Resposta Correta:</label>
+            <select id="resposta" required>
+                <option value="">Selecione</option>
+                <option value="hardware">Hardware</option>
+                <option value="software">Software</option>
+            </select>
+
+            <button type="submit">Cadastrar Imagem</button>
+        </form>
+
+        <div id="mensagem"></div>
+
+        <h2>Imagens Cadastradas</h2>
+        <table id="tabela-imagens">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Imagem</th>
+                    <th>Resposta Correta</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="crm.js"></script>
+</body>
+</html>
